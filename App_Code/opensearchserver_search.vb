@@ -20,7 +20,7 @@ Namespace OpenSearchServer
         Private Function buildBaseUrl(ByVal cmd As String) As StringBuilder
             Dim u As StringBuilder = New StringBuilder()
             u.Append(url)
-            u.Append("/search?use=")
+            u.Append("/select?use=")
             u.Append(HttpUtility.HtmlEncode(indexName))
             If login <> Nothing Then
                 u.Append("&login=")

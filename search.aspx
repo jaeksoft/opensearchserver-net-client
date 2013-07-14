@@ -44,7 +44,7 @@
     %>
     <div>
         <h3 style="margin-bottom: 0px">
-            <a href="<%= link%>">
+            <a href="<%= url%>">
                 <%= title%></a></h3>
         <div>
             <%= content%></div>
